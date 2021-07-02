@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# ArgenDev - Project App Web MarkCare
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Development of a shift management system for shops called supermarkets and hypermarkets.
 
-In the project directory, you can run:
+This project describes the resources and steps for designing the MarkCare shift management system. It will be developed for Smartphones devices, so that it will be available for download and installation in the system store of said device.
+The scope of the system is aimed at those people who want to make their purchases in a more organized and safe way in the context of the pandemic caused by the COD-19 disease, thus promoting social distancing and avoiding the agglutination of people in the shops, in accordance with the provisions of the national government and health specialists.
+The management and interface of the system will be user-friendly and intuitive, making it possible for it to be adopted by a wide age range of people. 
 
-### `npm start`
+## Almacenamiento 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+las imagenes del maquetado del proyecto se almacenan en  [google drive  ](https://drive.google.com/drive/folders/15TsfacS0FDNPDvEnY_8ayUA_7IO6l7Zj?usp=sharing)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The link is inserted to access support files related to the database. [google drive  ](https://drive.google.com/drive/folders/1AB-SKnXvBrATgMVoQ1Omx_MgbUUdIKR9)
 
-### `npm test`
+### Installation 🔧
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Test ⚙️
 
-### `npm run build`
+### Analyze test end-to-end 🔩
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Coding style tests ⌨️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deploy 📦
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built with  🛠️
 
-### `npm run eject`
+## Wiki 📖
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Versioned 📌
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Use (http://github.com/) for versioning. For all available versions, look at [tags in this repository](https://github.com/11Feldman/ArgenDev/tags).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Authors ✒️
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License 📄
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Expressions of gratitude 🎁
