@@ -9,6 +9,7 @@ const Register = () => {
             <div className='RegisterNavBar'>
                 <a href="/" class="btn btn-primary btn-sm" role="button" aria-pressed="true">Volver</a>
             </div>
+            <hr />
             <div className={"lContainer"}>
                 <div className="lItem">
                     <div className="loginImage">
