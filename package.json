@@ -1,6 +1,9 @@
 {
   "name": "tracker-login",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "proxy": "https://ven01994.service-now.com",
   "dependencies": {
