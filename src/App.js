@@ -9,6 +9,9 @@ import {
 import Inicio from './components/Inicio';
 import Login from './components/Login';
 import Register from './components/Register';
+import Shop from './components/Shop'
+import Location from './components/Location';
+import Branch from './components/Branch';
 
 function App() {
   return (
@@ -23,6 +26,15 @@ function App() {
           </Route>
           <Route path='/' exact>
             <Inicio />
+          </Route>
+          <Route path='/shop'>
+            <Shop />
+          </Route>
+          <Route path='/location'>
+            <Location />
+          </Route>
+          <Route path='/branch'>
+            <Branch />
           </Route>
         </Switch>
     </div>

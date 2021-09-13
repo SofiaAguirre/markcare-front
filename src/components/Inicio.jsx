@@ -1,6 +1,6 @@
 import React from 'react';
-import loginImg from './logo.png';
-import indexImg from './fondo-super.JPG';
+import loginImg from './images/logo.png';
+import indexImg from './images/fondo-super.jpg';
 
 const Inicio = () => {
     return (
@@ -8,12 +8,12 @@ const Inicio = () => {
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <img src={loginImg} width="150" style={{ position: 'relative' }} alt="register" />
+                        <img src={loginImg} width="38%" style={{ position: 'relative' }} alt="register" />
                     </div>
                     <div class="col">
-                        <ul class="nav justify-content-end">
+                        <ul class="nav">
                             <li class="nav-item">
-                                <a href="/login" class="btn btn-primary btn-sm" role="button" aria-pressed="true">Login</a>
+                                <a href="/login"class="btn btn-primary btn-sm" role="button" aria-pressed="true">Login</a>
                             </li>
                             <li class="nav-item">
                                 <a href="/register" class="btn btn-primary btn-sm" role="button" aria-pressed="true">Register</a>

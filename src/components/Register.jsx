@@ -1,19 +1,19 @@
 import React from 'react';
-import loginImg from './logo.png'
+import loginImg from './images/logo.png'
 import { Form, Icon, Input, Button, Checkbox, message } from "antd";
 const FormItem = Form.Item;
 
 const Register = () => {
     return (
         <div>
-            <div className='RegisterNavBar'>
-                <a href="/" class="btn btn-primary btn-sm" role="button" aria-pressed="true">Volver</a>
+            <div className="RegisterNavBar">
+                <a href="/"class="btn btn-primary btn-sm" role="button" aria-pressed="true">Volver</a>
             </div>
             <hr />
             <div className={"lContainer"}>
                 <div className="lItem">
-                    <div className="loginImage">
-                        <img src={loginImg} width="300" style={{ position: 'relative' }} alt="register" />
+                    <div className="registerImage">
+                        <img src={loginImg} width="300"  alt="register" />
                     </div>
                     <div className="registerForm">
                         <h2>Register</h2>
