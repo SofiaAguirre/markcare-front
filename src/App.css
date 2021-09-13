@@ -33,9 +33,17 @@ body {
   grid-template-rows: 25vh;
   grid-template-columns: 100%;
   margin-top: -12px;
-  
 }
-.locationContainer .row{
+.branchConfirmContainer {
+  display:grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  grid-template-rows: 25vh;
+  grid-template-columns: 100%;
+  margin-top: -12px;
+}
+.shopContainer .row{
   margin-top: 8%;
 }
 
@@ -48,7 +56,7 @@ body {
   grid-template-columns: 100%;
   margin-top: -12px; 
 }
-.shopContainer .row{
+.locationContainer .row{
   margin-top: 8%;
 }
 
@@ -68,6 +76,16 @@ body {
   margin-top: -30px;
   margin-bottom: 40px;
 }
+.map{
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80% 50% ;
+  justify-items: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
 
 .currentlocation{
   display:grid;
@@ -78,10 +96,16 @@ body {
   background-color: #f6f6f6;
   margin-bottom: 40px;
 }
-.shopContainer img{
+.locationContainer img{
   width: 30%;
   margin-top: 15%;
   margin-bottom: 10%;
+}
+
+.branchConfirmContainer img{
+ width:30%;
+ border: black 50px solid;
+ border-width: 1px;
 }
 
 .spanLink{
@@ -110,7 +134,7 @@ body {
   display:grid;
   grid-template-columns: 33% 34% 33%;
   margin-top: -10px;
-  grid-template-rows: 12vh;
+  grid-template-rows: 12vh; 
 }
 
 .footerShop .socialmedia{
@@ -126,6 +150,7 @@ body {
 .socialmedia h6{
   margin-top: 30px;
   padding-left: 8%;
+  font-weight: unset;
 }
 
 .terms{
@@ -322,7 +347,7 @@ tbody {
   border-radius: 5px;
   height: 35%;
 }
-.locationContainer a{
+.shopContainer a{
   text-align: center;
   font-size: 14px;
   color: #fff;
@@ -333,7 +358,7 @@ tbody {
   height: 35%;
   margin-left: 60%;
 }
-.shopContainer a{
+.locationContainer a{
   text-align: center;
   font-size: 14px;
   color: #fff;
@@ -342,6 +367,18 @@ tbody {
   border:0;
   border-radius: 5px;
   height: 35%;
+}
+
+.branchConfirmContainer a{
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background: #0d4d90;
+  padding: 6px 24px 8px;
+  border:0;
+  border-radius: 5px;
+  width: 20%;
+  margin-bottom: 10%;
 }
  .container .col .nav{
   display:flex;

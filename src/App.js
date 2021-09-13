@@ -12,6 +12,7 @@ import Register from './components/Register';
 import Shop from './components/Shop'
 import Location from './components/Location';
 import Branch from './components/Branch';
+import BranchConfirm from './components/BranchConfirm';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route path='/branch'>
             <Branch />
+          </Route>
+          <Route path='/BranchConfirm'>
+            <BranchConfirm />
           </Route>
         </Switch>
     </div>

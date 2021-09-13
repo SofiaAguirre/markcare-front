@@ -13,6 +13,7 @@ import logfacebook from "./images/fb.png"
 import logtwitter from "./images/tw.png"
 import loginstagram from "./images/ig.png"
 import logyoutube from "./images/yt.png"
+import mapa from "./images/mapa.jpg"
 
 /*
     Kit de interfaz de usuario que contiene mas de 2000 
@@ -37,7 +38,7 @@ const menu = (
     </Menu>
 );
 
-const Location = () =>{
+const BranchConfirm = () =>{
     return(
     <div>
         <div className="RegisterNavBar">
@@ -57,17 +58,13 @@ const Location = () =>{
             </div>
         </div>
         <hr />
-        <div className="locationContainer">
+        <div className="branchConfirmContainer">
                 <div className="txtLocation"> 
-                    <h3>Selecciona tu ubicación</h3>
+                    <h3>Confirma la sucursal seleccionada</h3>
                 </div>
-                <div className="registeraddress">
-                    <img src={locationStoreImg}  alt="Register Address"/>
-                    <a href="/registeraddress" class="btn btn-primary btn-sm" role="button" aria-pressed="true">Direccion registrada</a>
-                </div>
-                <div className="currentlocation">
-                    <img src={userLocationImg}  alt="Current Location"/>
-                    <a href="currentlocation" class="btn btn-primary btn-sm" role="button" aria-pressed="true" style={{width:"60%"}}>Ubicación actual</a>
+                <div className="map">
+                    <img src={mapa}  alt="map"/>
+                    <a href="/map" class="btn btn-primary btn-sm" role="button" aria-pressed="true">Confirmar</a>
                 </div>
         </div>
         <div className="footerShop">
@@ -93,4 +90,4 @@ const Location = () =>{
     </div>
     )
 }   
-export default Location
+export default BranchConfirm
