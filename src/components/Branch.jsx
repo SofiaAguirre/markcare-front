@@ -42,12 +42,12 @@ const menu = (
 const Branch = () => {
     return (
         <div>
-            <div className="RegisterNavBar">
+            <div className="navBar2">
                 <div className="row">
-                    <div className="col">
+                    <div className="col2">
                         <a href="/" role="button" className="back" aria-pressed="true"><LeftOutlined /></a>
                     </div>
-                    <div className="col">
+                    <div className="col2">
                         <div className="nav justify-content-end">
                             <Dropdown overlay={menu} trigger={['click']}>
                                 <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
@@ -70,7 +70,8 @@ const Branch = () => {
                             <p>Campo de texto 1 direccion de tienda mas cercana</p>
                             </div>
                             <a href="/registeraddress" className="btnselect" class="btn btn-primary btn-sm" role="button" aria-pressed="true">Seleccionar</a>
-                    </div>  
+                    </div> 
+                    <hr/>
                     <div className="branch">
                             <img src={iconoSucursal}  className="imgStore" alt="Register Address" style={{ position: "relative"}}  />
                             <div className="text">

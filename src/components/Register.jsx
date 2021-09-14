@@ -6,14 +6,14 @@ const FormItem = Form.Item;
 const Register = () => {
     return (
         <div>
-            <div className="RegisterNavBar">
+            <div className="navBar1">
                 <a href="/"class="btn btn-primary btn-sm" role="button" aria-pressed="true">Volver</a>
             </div>
             <hr />
             <div className={"lContainer"}>
                 <div className="lItem">
                     <div className="registerImage">
-                        <img src={loginImg} width="300"  alt="register" />
+                        <img src={loginImg} width="100%"  alt="register" />
                     </div>
                     <div className="registerForm">
                         <h2>Register</h2>

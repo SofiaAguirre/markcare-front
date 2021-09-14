@@ -8,7 +8,7 @@ const Inicio = () => {
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <img src={loginImg} width="38%" style={{ position: 'relative' }} alt="register" />
+                        <img src={loginImg} width="38%%"  alt="register" />
                     </div>
                     <div class="col">
                         <ul class="nav">

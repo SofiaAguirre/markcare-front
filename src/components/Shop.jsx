@@ -41,12 +41,12 @@ const menu = (
 const Shop = () => {
     return (
         <div>
-            <div className="RegisterNavBar">
+            <div className="navBar2">
                 <div className="row">
-                    <div className="col">
+                    <div className="col2">
                         <a href="/" role="button" className="back" aria-pressed="true"><LeftOutlined /></a>
                     </div>
-                    <div className="col">
+                    <div className="col2">
                         <div className="nav justify-content-end">
                             <Dropdown overlay={menu} trigger={['click']}>
                                 <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
