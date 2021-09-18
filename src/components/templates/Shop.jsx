@@ -6,17 +6,12 @@ import React from 'react';
     Importamos con el nombre 'loginImg' la imagen que se encuentra 
     en la carpeta actual (./) del LOGO de Markcare.
 */
-import logoargendev from './images/logoArgendev.png';
-import logfacebook from "./images/fb.png"
-import logtwitter from "./images/tw.png"
-import loginstagram from "./images/ig.png"
-import logyoutube from "./images/yt.png"
-import carrefour from "./images/carrefourLogo.png"
-import walmart from "./images/wallmartLogo.png"
-import disco from "./images/discoLogo.png"
-import jumbo from "./images/jumboLogo.png"
-import coto from "./images/cotoLogo.png"
-import dia from "./images/diaLogo.png"
+import carrefour from "../images/carrefourLogo.png";
+import walmart from "../images/wallmartLogo.png";
+import disco from "../images/discoLogo.png";
+import jumbo from "../images/jumboLogo.png";
+import coto from "../images/cotoLogo.png";
+import dia from "../images/diaLogo.png";
 /*
     Kit de interfaz de usuario que contiene mas de 2000 
     componentes de interfaz para aplicaciones web y 
@@ -45,7 +40,7 @@ const Shop = () => {
             <div className="navBar2">
                 <div className="row">
                     <div className="col2">
-                        <a href="/" role="button" className="back" aria-pressed="true"><LeftOutlined /></a>
+                        <a href="/login" role="button" className="back" aria-pressed="true"><LeftOutlined /></a>
                     </div>
                     <div className="col2">
                         <div className="nav justify-content-end">
@@ -73,9 +68,9 @@ const Shop = () => {
                     </div>
                     <div className="col">
 
-                        <a href="currentlocation" class="btn" role="button" aria-pressed="true">Seleccionar</a>
-                        <a href="currentlocation" class="btn" role="button" aria-pressed="true">Seleccionar</a>
-                        <a href="currentlocation" class="btn" role="button" aria-pressed="true">Seleccionar</a>
+                        <a href="./branch" class="btn" role="button" aria-pressed="true">Seleccionar</a>
+                        <a href="./branch" class="btn" role="button" aria-pressed="true">Seleccionar</a>
+                        <a href="./branch" class="btn" role="button" aria-pressed="true">Seleccionar</a>
 
                     </div>
                     <div className="col">
@@ -85,15 +80,13 @@ const Shop = () => {
                     </div>
                     <div className="col">
 
-                        <a href="currentlocation" class="btn" role="button" aria-pressed="true">Seleccionar</a>
-                        <a href="currentlocation" class="btn" role="button" aria-pressed="true">Seleccionar</a>
-                        <a href="currentlocation" class="btn" role="button" aria-pressed="true">Seleccionar</a>
+                        <a href="./branch" class="btn" role="button" aria-pressed="true">Seleccionar</a>
+                        <a href="./branch" class="btn" role="button" aria-pressed="true">Seleccionar</a>
+                        <a href="./branch" class="btn" role="button" aria-pressed="true">Seleccionar</a>
 
                     </div>
                 </div>
             </div>
-            S
-
         </div>
     )
 }
