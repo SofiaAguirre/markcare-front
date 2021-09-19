@@ -40,7 +40,7 @@ const Register = () => {
             setTimeout((e) => {
                 message.info('Falta ingresar datos, no es posible registrar al usuario.', 2)
             }, 500);
-        } else if (user == usuarioLocalStorage) {
+        } else if (user === usuarioLocalStorage) {
             setTimeout((e) => {
                 message.info('Usuario ya registrado', 2)
             }, 500);
@@ -89,8 +89,8 @@ const Register = () => {
                                     prefix={<Icon type="idcard" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="user"
                                     placeholder="Usuario"
-                                    minLength="1"
-                                    pattern={expresiones.usuario}
+                                    //minLength="1"
+                                    //pattern={expresiones.usuario}
                                     onChange={({ target }) => setUser(target.value)}
                                 />
                             </FormItem>
@@ -99,8 +99,8 @@ const Register = () => {
                                     prefix={<Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="text"
                                     placeholder="Nombre"
-                                    pattern={expresiones.password}
-                                    maxLength="20"
+                                    //pattern={expresiones.password}
+                                    //maxLength="20"
                                     onChange={({ target }) => setName(target.value)}
                                 />
                             </FormItem>
@@ -109,8 +109,8 @@ const Register = () => {
                                     prefix={<Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="text"
                                     placeholder="Apellido"
-                                    pattern={expresiones.password}
-                                    maxLength="20"
+                                    //pattern={expresiones.password}
+                                    //maxLength="20"
                                     onChange={({ target }) => setLastName(target.value)}
                                 />
                             </FormItem>
@@ -119,8 +119,8 @@ const Register = () => {
                                     prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="password"
                                     placeholder="Contraseña"
-                                    pattern={expresiones.password}
-                                    minLength="4"
+                                    //pattern={expresiones.password}
+                                    //minLength="4"
                                     onChange={({ target }) => setPassword(target.value)}
                                 />
                             </FormItem>
@@ -129,8 +129,8 @@ const Register = () => {
                                     prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="password"
                                     placeholder="Confirmar contraseña"
-                                    minLength="4"
-                                    pattern={expresiones.password}
+                                    //minLength="4"
+                                    //pattern={expresiones.password}
                                     onChange={({ target }) => setConfirmpass(target.value)}
                                 />
                             </FormItem>
@@ -147,7 +147,7 @@ const Register = () => {
                                     prefix={<Icon type="home" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="address"
                                     placeholder="Direccion"
-                                    pattern={expresiones.usuario}
+                                    //pattern={expresiones.usuario}
                                     onChange={({ target }) => setAddress(target.value)}
                                 />
                             </FormItem>
@@ -156,17 +156,18 @@ const Register = () => {
                                     prefix={<Icon type="global" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="text"
                                     placeholder="Pais"
-                                    pattern={expresiones.usuario}
+                                    //pattern={expresiones.usuario}
                                     onChange={({ target }) => setCountry(target.value)}
                                 />
                             </FormItem>
                             <FormItem>
                                 <Input
                                     prefix={<Icon type="shake" style={{ color: "rgba(0,0,0,.25)" }} />}
-                                    type="number"
+                                    type="text"
                                     placeholder="Celular"
-                                    minLength="10"
-                                    onKeyPress={expresiones.dni}
+                                    //minLength="10"
+                                    //pattern={expresiones.dni}
+                                    //onKeyPress={expresiones.dni}
                                     onChange={({ target }) => setCellPhone(target.value)}
                                 />
                             </FormItem>
@@ -175,8 +176,7 @@ const Register = () => {
                                     prefix={<Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     placeholder="DNI"
                                     type="number"
-                                    minLength="7"
-                                    pattern={expresiones.dni}
+                                    //pattern={expresiones.dni}
                                     onKeyPress={expresiones.dni}
                                     onChange={({ target }) => setIdLegal(target.value)}
                                 />

@@ -11,7 +11,6 @@ import logfacebook from "../images/fb.png";
 import logtwitter from "../images/tw.png";
 import loginstagram from "../images/ig.png";
 import logyoutube from "../images/yt.png";
-import iconoSucursal from "../images/iconoSucursal.png";
 import carrefour from "../images/carrefourLogo.png";
 import walmart from "../images/wallmartLogo.png";
 import disco from "../images/discoLogo.png";

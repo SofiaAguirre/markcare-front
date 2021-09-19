@@ -99,8 +99,8 @@ const Editprofile = () => {
                                     prefix={<Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="text"
                                     defaultValue={getName}
-                                    pattern={expresiones.password}
-                                    maxLength="20"
+                                    //pattern={expresiones.password}
+                                    //maxLength="20"
                                     onChange={({ target }) => setName(target.value)}
                                 />
                             </FormItem>
@@ -109,8 +109,8 @@ const Editprofile = () => {
                                     prefix={<Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="text"
                                     defaultValue={getLastName}
-                                    pattern={expresiones.password}
-                                    maxLength="20"
+                                    //pattern={expresiones.password}
+                                    //maxLength="20"
                                     onChange={({ target }) => setLastName(target.value)}
                                 />
                             </FormItem>
@@ -119,8 +119,8 @@ const Editprofile = () => {
                                     prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="password"
                                     defaultValue={getPassword}
-                                    pattern={expresiones.password}
-                                    minLength="4"
+                                    //pattern={expresiones.password}
+                                    //minLength="4"
                                     onChange={({ target }) => setPassword(target.value)}
                                 />
                             </FormItem>
@@ -129,8 +129,8 @@ const Editprofile = () => {
                                     prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="password"
                                     defaultValue={getConfirmpass}
-                                    minLength="4"
-                                    pattern={expresiones.password}
+                                    //minLength="4"
+                                    //pattern={expresiones.password}
                                     onChange={({ target }) => setConfirmpass(target.value)}
                                 />
                             </FormItem>
@@ -147,7 +147,7 @@ const Editprofile = () => {
                                     prefix={<Icon type="home" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     type="address"
                                     defaultValue={getAddress}
-                                    pattern={expresiones.usuario}
+                                    //pattern={expresiones.usuario}
                                     onChange={({ target }) => setAddress(target.value)}
                                 />
                             </FormItem>
@@ -155,24 +155,24 @@ const Editprofile = () => {
                                 <Input
                                     prefix={<Icon type="global" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     defaultValue={getCountry}
-                                    pattern={expresiones.usuario}
+                                    //pattern={expresiones.usuario}
                                     onChange={({ target }) => setCountry(target.value)}
                                 />
                             </FormItem>
                             <FormItem>
                                 <Input
-                                    prefix={<Icon type="phone" style={{ color: "rgba(0,0,0,.25)" }} />}
+                                    prefix={<Icon type="shake" style={{ color: "rgba(0,0,0,.25)" }} />}
                                     defaultValue={getCellPhone}
                                     type="number"
                                     minLength="10"
-                                    onKeyPress={expresiones.dni}
+                                    //onKeyPress={expresiones.dni}
                                     onChange={({ target }) => setCellPhone(target.value)}
                                 />
                             </FormItem>
                             <FormItem>
                                 <Input
                                     prefix={<Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />}
-                                    type="text"
+                                    type="number"
                                     defaultValue={getIdLegal}
                                     disabled
                                 />
